@@ -1,0 +1,18 @@
+img{
+    width:40%;
+}
+
+h1{
+    color: blue;
+    font-size: 35px;
+    font-style:italic;
+}
+
+#mapa{
+    width:72%;
+}
+
+#tiempo{
+    width:70%;
+    padding-left:220px;
+}
