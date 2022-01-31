@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang ="es">
+	<head>
+		<meta charset = "UTF-8">
+		<title>Pagina de contacto</title>
+	</head>
+	<body>      
+        <FONT SIZE=6><u><h1>Pagina de contacto</h1></u></FONT>
+        <br><br>
+        <p>
+            <h3>
+                Correo: <a href="mailto:david.alomon@educa.cyl.es" target="_blank">david.alomon@educa.cyl.es</a><br>
+            </h3>
+        </p>   
+
+        <br><br><br><br><br><br>
+        <h1>Formulario</h1>
+
+
+        <form action="programa.php" method ="get">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+
+
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" id="apellidos" name="apellidos"><br><br>       
+        
+
+            Sexo:             
+            <input type="radio" name="sexo" id="hombre" value="h">
+            <label for="hombre">hombre</label>
+            
+            <input type="radio" name="sexo" id="mujer" value="m">
+            <label for="mujer">mujer</label> 
+            
+            <input type="radio" name="sexo" id="Otro" value="o">
+            <label for="otro">otro</label> 
+            <br><br>                                           
+            
+            
+            <label for="correo">Correo: </label>
+            <input type="text" id="correo" name="correo"><br><br>  
+                
+        
+            <label for="poblacion">Poblacion: </label>
+            <select name="poblacion">
+                <option value="1">Avila</option> 
+                <option value="2">Burgos</option> 
+                <option value="3">Leon</option> 
+                <option value="4">Palencia</option>
+                <option value="5">Salamanca</option>
+                <option value="6">Segovia</option>
+                <option value="7">Soria</option>
+                <option value="8">Valladolid</option>
+                <option value="9">Zamora</option>
+            </select> 
+            <br><br>
+            
+            Comentario:
+            <textarea rows="10" cols="130" name="texto"></textarea><br><br>
+            <input type="checkbox" name="opcion1" id="opcion1" checked="checked" value="opcion">Deseo recibir informacion sobre actualizaciones sobre la misma pagina web<br><br>
+            <input type="checkbox" name="opcion2" id="opcion2" value="opcion">Declaro haber leido y aceptar las condiciones generales de la pagina web<br><br>
+            <input type="submit" value="enviar">
+            <br>
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p align="right">
+            Correo: <a href="mailto:david.alomon@educa.cyl.es" target="_blank">david.alomon@educa.cyl.es</a>
+        </p>
+	</body>
+</html>
